@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expence Tracker</title>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <div id="main">
+        <div id="Section1">
+            <h2 id="title">Expense Tracker</h2>
+            <p id = "subtitle">Add your transactions below. The category will be automatically suggested!</p>
+            <form id="expense-form">
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <input type="text" id="description" placeholder="e.g.,Starbucks coffee" required class="input-box">
+                </div>
+                <div class="form-group">
+                    <label for="amount">Amount(₹)</label>
+                    <input type="number" id="amount" placeholder="e.g.,200" required class="input-box">
+                </div>
+                <div class="form-group">
+                    <label for="category-select">Category (Predicted)</label>
+                    <select name="category" id="category" required class="input-box">
+                        <option value="">Select a category...</option>                        <!-- <option value="select">Select a category...</option>
+                        <option value="food$drink">Food & Drink</option>
+                        <option value="shopping">Shopping</option>
+                        <option value="transportation">Transportation</option>
+                        <option value="utilities">Utilities</option>
+                        <option value="entertainment">Entertainment</option>
+                        <option value="miscellaneous">Miscellaneous</option> -->
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="button">Add Expence</button>
+                </div>
+            </form>
+            <div id="expenseList">
+                <h2 class="section-title">Expenses</h2>
+                <div id="expense-list" class="expense-list"></div>
+                <p id="no-expenses" class="empty-text">No expenses added yet.</p>
+            </div>
+        </div>
+         <!-- Visualization Section -->
+        <div class="chart-section">
+        <h2 class="section-title">Spending Breakdown</h2>
+        <div class="chart-container">
+            <canvas id="expense-chart"></canvas>
+        </div>
+        </div>
+    </div>  
+</body>
+<script src="script.js"></script>
+</html>
