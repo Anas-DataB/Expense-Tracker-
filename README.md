@@ -1,84 +1,99 @@
-# 💰 Expense Tracker
+# Expense Tracker
 
-A smart web-based expense tracker that automatically categorizes your transactions using AI-powered keyword detection. Built with HTML, CSS, and JavaScript.
+A smart and interactive Expense Tracker web application built with **HTML**, **CSS**, and **JavaScript**, featuring:
 
-![Expense Tracker](https://img.shields.io/badge/Version-1.0.0-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+* Automatic category prediction based on description
+* Local storage support (data persists even after page reload)
+* Clean UI for adding and managing expenses
+* Pie-chart visualization using **Chart.js**
 
-## ✨ Features
+---
 
-- **🤖 Smart Categorization**: Automatically suggests categories based on transaction descriptions
-- **📊 Visual Analytics**: Interactive pie chart to visualize spending patterns using Chart.js
-- **💾 Local Storage**: Saves your data securely in browser storage
-- **📱 Responsive Design**: Clean, modern interface that works on all devices
-- **🎯 Easy Management**: Add and delete expenses with intuitive controls
-- **⚡ Real-time Updates**: Instant category prediction as you type
+## 🚀 Features
 
-## 🚀 Live Demo
+* **Smart Category Prediction**: Automatically suggests the correct category using keyword-based matching.
+* **Add / Delete Expenses**: Simple UI to manage your transactions.
+* **Real-time Chart Visualization**: Pie chart updates instantly based on your spending.
+* **Responsive Design**: Works smoothly on all screen sizes.
+* **Local Storage**: All expenses are saved in the browser.
 
-[Add your live demo link here]
-
-## 🛠️ Tech Stack
-
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
-- **Charts**: Chart.js
-- **Icons**: Font Awesome
-- **Storage**: Local Storage API
-- **Font**: Inter Google Font
-
-## 📦 Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/expense-tracker.git
-```
-
-2. Navigate to the project directory:
-```bash
-cd expense-tracker
-```
-
-3. Open `index.html` in your browser or use a local server.
-
-## 🎮 How to Use
-
-1. **Add Expense**: Enter description and amount - category will be auto-suggested!
-2. **Smart Detection**: Type "Starbucks coffee" → automatically categorizes as "Food & Drinks"
-3. **View Analytics**: See spending breakdown in the interactive pie chart
-4. **Manage Expenses**: Click trash icon to delete any transaction
-
-## 🔧 Supported Categories
-
-- 🍕 Food & Drinks
-- 🛍️ Shopping
-- 🚗 Transportation
-- 🏠 Utilities
-- 🎬 Entertainment
-- 📦 Miscellaneous
+---
 
 ## 📁 Project Structure
 
 ```
-expense-tracker/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
+project-folder/
+│── index.html        # Main webpage
+│── style.css         # Styling for UI
+│── script.js         # Full logic (categories, chart, storage)
 ```
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork this project and submit pull requests.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 👨‍💻 Author
-
-Your Name
-- GitHub: [@yourusername](https://github.com/yourusername)
 
 ---
 
-**⭐ Star this repo if you find it helpful!**
+## 🛠️ Technologies Used
+
+* **HTML5**
+* **CSS3**
+* **JavaScript (ES6)**
+* **Chart.js** for visual charts
+* **Font Awesome** for icons
+* **Google Fonts – Inter**
+
+---
+
+## 🧠 How Category Prediction Works
+
+The app scans the expense description and matches keywords to predefined categories such as:
+
+* Food & Drinks
+* Shopping
+* Transportation
+* Utilities
+* Entertainment
+* Miscellaneous
+
+Example:
+
+```
+"Starbucks coffee" → Food & Drinks
+"Uber ride" → Transportation
+```
+
+---
+
+## 📦 Installation & Usage
+
+1. **Download the project files** or clone the repository.
+2. Make sure all files (`index.html`, `script.js`, `style.css`) are in the same folder.
+3. Open **index.html** in any browser.
+4. Start adding expenses!
+
+No server is required — this works completely in the browser.
+
+---
+
+## 📸 Screenshots (Optional Section)
+
+You can add screenshots of the app UI and chart here.
+
+---
+
+## 🧹 Future Improvements
+
+* Export expenses to CSV/Excel
+* Dark mode support
+* Search and filter functionality
+* Monthly budget tracking
+* AI-based categorization using ML
+
+---
+
+## 📜 License
+
+This project is for learning and personal use. You can modify and improve it as you like.
+
+---
+
+## 🙌 Author
+
+Created by **Anas** as part of a learning project.
