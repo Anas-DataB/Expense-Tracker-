@@ -74,9 +74,9 @@ No server is required — this works completely in the browser.
 
 ## 📸 Screenshots (Optional Section)
 
-You can add screenshots of the app UI and chart here.
+<img width="1366" height="768" alt="Screenshot 2025-11-16 231808" src="https://github.com/user-attachments/assets/39589121-0048-4328-bdc7-af5ae47a2720" />
+<img width="1366" height="768" alt="Screenshot 2025-11-16 231714" src="https://github.com/user-attachments/assets/3214406d-acd7-4ed6-9c8a-e8b3588287fc" />
 
----
 
 ## 🧹 Future Improvements
 
@@ -96,4 +96,4 @@ This project is for learning and personal use. You can modify and improve it as 
 
 ## 🙌 Author
 
-Created by **Anas** as part of a learning project.
+Created by **Anas Ali** as part of a learning project.
